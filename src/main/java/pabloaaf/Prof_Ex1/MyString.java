@@ -17,6 +17,7 @@ public class MyString {
 					return chars_str1[i] - chars_str2[i];
 				}
 			}
+			return 0;
 		}		
 		return this.str.length() - segundo.str.length();
 	}
